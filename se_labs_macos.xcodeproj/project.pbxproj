@@ -11,9 +11,11 @@
 		6496D4EA2B6AEE4300076917 /* Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496D4E92B6AEE4300076917 /* Lab1Tests.swift */; };
 		64B5116F2B69973300A4A637 /* lab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5116E2B69973300A4A637 /* lab1.swift */; };
 		85B5FE4F2B697ED0003AD2EB /* se_labs_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */; };
-		85B5FE512B697ED0003AD2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE502B697ED0003AD2EB /* ContentView.swift */; };
+		85B5FE512B697ED0003AD2EB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE502B697ED0003AD2EB /* Main.swift */; };
 		85B5FE532B697ED1003AD2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE522B697ED1003AD2EB /* Assets.xcassets */; };
 		85B5FE562B697ED1003AD2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */; };
+		85F23D5C2B69988800BDED07 /* FirstLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F23D5B2B69988800BDED07 /* FirstLab.swift */; };
+		85F23D5E2B69989F00BDED07 /* SecondLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F23D5D2B69989F00BDED07 /* SecondLab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +35,12 @@
 		64B5116E2B69973300A4A637 /* lab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1.swift; sourceTree = "<group>"; };
 		85B5FE4B2B697ED0003AD2EB /* se_labs_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = se_labs_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = se_labs_macosApp.swift; sourceTree = "<group>"; };
-		85B5FE502B697ED0003AD2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85B5FE502B697ED0003AD2EB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		85B5FE522B697ED1003AD2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85B5FE572B697ED1003AD2EB /* se_labs_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = se_labs_macos.entitlements; sourceTree = "<group>"; };
+		85F23D5B2B69988800BDED07 /* FirstLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLab.swift; sourceTree = "<group>"; };
+		85F23D5D2B69989F00BDED07 /* SecondLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,7 @@
 			children = (
 				64B5116D2B69971E00A4A637 /* domain */,
 				85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */,
-				85B5FE502B697ED0003AD2EB /* ContentView.swift */,
+				85B5FE502B697ED0003AD2EB /* Main.swift */,
 				85B5FE522B697ED1003AD2EB /* Assets.xcassets */,
 				85B5FE572B697ED1003AD2EB /* se_labs_macos.entitlements */,
 				85B5FE542B697ED1003AD2EB /* Preview Content */,
@@ -111,6 +115,15 @@
 				85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85F23D5A2B69979600BDED07 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				85F23D5B2B69988800BDED07 /* FirstLab.swift */,
+				85F23D5D2B69989F00BDED07 /* SecondLab.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B5FE512B697ED0003AD2EB /* ContentView.swift in Sources */,
+				85B5FE512B697ED0003AD2EB /* Main.swift in Sources */,
+				85F23D5E2B69989F00BDED07 /* SecondLab.swift in Sources */,
+				85F23D5C2B69988800BDED07 /* FirstLab.swift in Sources */,
 				85B5FE4F2B697ED0003AD2EB /* se_labs_macosApp.swift in Sources */,
 				64B5116F2B69973300A4A637 /* lab1.swift in Sources */,
 			);
