@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6496D4E32B6AED9B00076917 /* se_labs_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496D4E22B6AED9B00076917 /* se_labs_macosTests.swift */; };
+		6496D4EA2B6AEE4300076917 /* Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496D4E92B6AEE4300076917 /* Lab1Tests.swift */; };
+		64B5116F2B69973300A4A637 /* lab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5116E2B69973300A4A637 /* lab1.swift */; };
 		85B5FE4F2B697ED0003AD2EB /* se_labs_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */; };
 		85B5FE512B697ED0003AD2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE502B697ED0003AD2EB /* ContentView.swift */; };
 		85B5FE532B697ED1003AD2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE522B697ED1003AD2EB /* Assets.xcassets */; };
 		85B5FE562B697ED1003AD2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6496D4E42B6AED9B00076917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B5FE432B697ED0003AD2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B5FE4A2B697ED0003AD2EB;
+			remoteInfo = se_labs_macos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6496D4E02B6AED9B00076917 /* se_labs_macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = se_labs_macosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6496D4E22B6AED9B00076917 /* se_labs_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = se_labs_macosTests.swift; sourceTree = "<group>"; };
+		6496D4E92B6AEE4300076917 /* Lab1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1Tests.swift; sourceTree = "<group>"; };
+		64B5116E2B69973300A4A637 /* lab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1.swift; sourceTree = "<group>"; };
 		85B5FE4B2B697ED0003AD2EB /* se_labs_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = se_labs_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = se_labs_macosApp.swift; sourceTree = "<group>"; };
 		85B5FE502B697ED0003AD2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +40,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6496D4DD2B6AED9B00076917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B5FE482B697ED0003AD2EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +57,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6496D4E12B6AED9B00076917 /* se_labs_macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6496D4E22B6AED9B00076917 /* se_labs_macosTests.swift */,
+			);
+			path = se_labs_macosTests;
+			sourceTree = "<group>";
+		};
+		64B5116D2B69971E00A4A637 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				64B5116E2B69973300A4A637 /* lab1.swift */,
+				6496D4E92B6AEE4300076917 /* Lab1Tests.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
 		85B5FE422B697ED0003AD2EB = {
 			isa = PBXGroup;
 			children = (
 				85B5FE4D2B697ED0003AD2EB /* se_labs_macos */,
+				6496D4E12B6AED9B00076917 /* se_labs_macosTests */,
 				85B5FE4C2B697ED0003AD2EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				85B5FE4B2B697ED0003AD2EB /* se_labs_macos.app */,
+				6496D4E02B6AED9B00076917 /* se_labs_macosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +95,7 @@
 		85B5FE4D2B697ED0003AD2EB /* se_labs_macos */ = {
 			isa = PBXGroup;
 			children = (
+				64B5116D2B69971E00A4A637 /* domain */,
 				85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */,
 				85B5FE502B697ED0003AD2EB /* ContentView.swift */,
 				85B5FE522B697ED1003AD2EB /* Assets.xcassets */,
@@ -72,6 +116,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6496D4DF2B6AED9B00076917 /* se_labs_macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6496D4E82B6AED9B00076917 /* Build configuration list for PBXNativeTarget "se_labs_macosTests" */;
+			buildPhases = (
+				6496D4DC2B6AED9B00076917 /* Sources */,
+				6496D4DD2B6AED9B00076917 /* Frameworks */,
+				6496D4DE2B6AED9B00076917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6496D4E52B6AED9B00076917 /* PBXTargetDependency */,
+			);
+			name = se_labs_macosTests;
+			productName = se_labs_macosTests;
+			productReference = 6496D4E02B6AED9B00076917 /* se_labs_macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		85B5FE4A2B697ED0003AD2EB /* se_labs_macos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5FE5A2B697ED1003AD2EB /* Build configuration list for PBXNativeTarget "se_labs_macos" */;
@@ -96,9 +158,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					6496D4DF2B6AED9B00076917 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 85B5FE4A2B697ED0003AD2EB;
+					};
 					85B5FE4A2B697ED0003AD2EB = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -118,11 +184,19 @@
 			projectRoot = "";
 			targets = (
 				85B5FE4A2B697ED0003AD2EB /* se_labs_macos */,
+				6496D4DF2B6AED9B00076917 /* se_labs_macosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6496D4DE2B6AED9B00076917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B5FE492B697ED0003AD2EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +209,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6496D4DC2B6AED9B00076917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496D4E32B6AED9B00076917 /* se_labs_macosTests.swift in Sources */,
+				6496D4EA2B6AEE4300076917 /* Lab1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B5FE472B697ED0003AD2EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				85B5FE512B697ED0003AD2EB /* ContentView.swift in Sources */,
 				85B5FE4F2B697ED0003AD2EB /* se_labs_macosApp.swift in Sources */,
+				64B5116F2B69973300A4A637 /* lab1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6496D4E52B6AED9B00076917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B5FE4A2B697ED0003AD2EB /* se_labs_macos */;
+			targetProxy = 6496D4E42B6AED9B00076917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6496D4E62B6AED9B00076917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZND9MB5XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.circle.se-labs-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/se_labs_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/se_labs_macos";
+			};
+			name = Debug;
+		};
+		6496D4E72B6AED9B00076917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZND9MB5XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.circle.se-labs-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/se_labs_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/se_labs_macos";
+			};
+			name = Release;
+		};
 		85B5FE582B697ED1003AD2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +446,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6496D4E82B6AED9B00076917 /* Build configuration list for PBXNativeTarget "se_labs_macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6496D4E62B6AED9B00076917 /* Debug */,
+				6496D4E72B6AED9B00076917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85B5FE462B697ED0003AD2EB /* Build configuration list for PBXProject "se_labs_macos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
