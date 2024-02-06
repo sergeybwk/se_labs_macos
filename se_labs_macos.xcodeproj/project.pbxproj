@@ -68,6 +68,13 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		64722E3A2B72FCCC00C5F8A1 /* infra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = infra;
+			sourceTree = "<group>";
+		};
 		6496D4E12B6AED9B00076917 /* se_labs_macosTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +113,7 @@
 		85B5FE4D2B697ED0003AD2EB /* se_labs_macos */ = {
 			isa = PBXGroup;
 			children = (
+				64722E3A2B72FCCC00C5F8A1 /* infra */,
 				64B5116D2B69971E00A4A637 /* domain */,
 				85B5FE4E2B697ED0003AD2EB /* se_labs_macosApp.swift */,
 				85B5FE502B697ED0003AD2EB /* Main.swift */,
