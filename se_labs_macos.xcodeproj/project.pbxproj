@@ -13,8 +13,7 @@
 		85B5FE512B697ED0003AD2EB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5FE502B697ED0003AD2EB /* Main.swift */; };
 		85B5FE532B697ED1003AD2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE522B697ED1003AD2EB /* Assets.xcassets */; };
 		85B5FE562B697ED1003AD2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */; };
-		85F23D5C2B69988800BDED07 /* FirstLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F23D5B2B69988800BDED07 /* FirstLab.swift */; };
-		85F23D5E2B69989F00BDED07 /* SecondLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F23D5D2B69989F00BDED07 /* SecondLab.swift */; };
+		85E21CA82B72FFBB00CBC645 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E21CA72B72FFBB00CBC645 /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,7 @@
 		85B5FE522B697ED1003AD2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B5FE552B697ED1003AD2EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85B5FE572B697ED1003AD2EB /* se_labs_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = se_labs_macos.entitlements; sourceTree = "<group>"; };
+		85E21CA72B72FFBB00CBC645 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		85F23D5B2B69988800BDED07 /* FirstLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLab.swift; sourceTree = "<group>"; };
 		85F23D5D2B69989F00BDED07 /* SecondLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +120,7 @@
 				85B5FE522B697ED1003AD2EB /* Assets.xcassets */,
 				85B5FE572B697ED1003AD2EB /* se_labs_macos.entitlements */,
 				85B5FE542B697ED1003AD2EB /* Preview Content */,
+				85E21CA72B72FFBB00CBC645 /* TaskView.swift */,
 			);
 			path = se_labs_macos;
 			sourceTree = "<group>";
@@ -241,8 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B5FE512B697ED0003AD2EB /* Main.swift in Sources */,
-				85F23D5E2B69989F00BDED07 /* SecondLab.swift in Sources */,
-				85F23D5C2B69988800BDED07 /* FirstLab.swift in Sources */,
+				85E21CA82B72FFBB00CBC645 /* TaskView.swift in Sources */,
 				85B5FE4F2B697ED0003AD2EB /* se_labs_macosApp.swift in Sources */,
 				64722E392B72F86C00C5F8A1 /* task.swift in Sources */,
 			);

@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct TaskView: View {
+    
+    let taskTitle: String
+    @State var isChecked: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(taskTitle, isOn: $isChecked).padding()
     }
 }
 
 #Preview {
-    TaskView()
+    TaskView(taskTitle: "test")
 }
